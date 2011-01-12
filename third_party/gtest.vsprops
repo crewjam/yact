@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+  ProjectType="Visual C++"
+  Version="8.00"
+  Name="gtest">
+  <Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(GtestInclude)&quot;"
+	/><UserMacro Name="GtestDir" Value="$(ThirdPartyDir)\gtest-1.5.0" />
+  <UserMacro Name="GtestInclude" Value="$(GtestDir)\include" />
+  <UserMacro Name="GtestLib" Value="$(GtestDir)\msvc\gtest\$(ConfigurationName)\gtest.lib" />
+    
+</VisualStudioPropertySheet>

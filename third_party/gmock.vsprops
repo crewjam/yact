@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+  ProjectType="Visual C++"
+  Version="8.00"
+  Name="gmock">
+    <Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(GmockInclude)&quot;"
+	/><UserMacro Name="GmockDir" Value="$(ThirdPartyDir)\gmock-1.5.0" />
+  <UserMacro Name="GmockInclude" Value="$(GmockDir)\include" />
+  <UserMacro Name="GmockLib" Value="$(GmockDir)\msvc\$(ConfigurationName)\gmock.lib" />
+
+</VisualStudioPropertySheet>

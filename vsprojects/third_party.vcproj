@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="third_party"
+	ProjectGUID="{B513A697-A65D-4976-9755-E21462645170}"
+	RootNamespace="third_party"
+	Keyword="MakeFileProj"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			InheritedPropertySheets=""
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="python -u $(ProjectDir)\..\third_party\build.py --$(ConfigurationName) --msbuild=$(FrameworkDir)\v3.5\msbuild.exe"
+				ReBuildCommandLine="python -u $(ProjectDir)\..\third_party\build.py --$(ConfigurationName) --msbuild=$(FrameworkDir)\v3.5\msbuild.exe"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="WIN32;_DEBUG"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			InheritedPropertySheets=""
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="python -u $(ProjectDir)\..\third_party\build.py --$(ConfigurationName) --msbuild=$(FrameworkDir)\v3.5\msbuild.exe"
+				ReBuildCommandLine="python -u $(ProjectDir)\..\third_party\build.py --$(ConfigurationName) --msbuild=$(FrameworkDir)\v3.5\msbuild.exe"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="WIN32;NDEBUG"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
