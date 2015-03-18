@@ -1,0 +1,1 @@
+YACT is (yet another) C++ library to help parsing command line arguments, configuration files and other mechanisms.  YACT includes utilities to generate derivitives such as man pages, usage text, etc.
